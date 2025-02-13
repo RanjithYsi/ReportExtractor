@@ -33,7 +33,7 @@ public class ReportExtractorController {
 	}
 	
 	@GetMapping("/greetings")
-	public String hello(String msg) {
+	public String hello() {
 		return "Welcome to Springboot jenkins demo";
 	}
 }
